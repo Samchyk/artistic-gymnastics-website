@@ -10,7 +10,6 @@ const _lora = Lora({ subsets: ["latin"], variable: '--font-body' });
 export const metadata: Metadata = {
   title: 'Magyar Tornasport - Elegancia és Precizitás',
   description: 'Fedezze fel a magyar műtornászat világát - elméletek, technikák és inspiráció',
-  generator: 'v0.app',
 }
 
 export default function RootLayout({
