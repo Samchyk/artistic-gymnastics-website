@@ -30,7 +30,6 @@ export function Footer() {
             <h4 className="font-display font-bold text-sm mb-4 text-foreground">Jogi</h4>
             <ul className="space-y-2 text-sm">
               <li><Link href="/privacy" className="text-muted-foreground hover:text-primary transition-colors">Adatvédelem</Link></li>
-              <li><Link href="/terms" className="text-muted-foreground hover:text-primary transition-colors">Felhasználási feltételek</Link></li>
             </ul>
           </div>
         </div>
