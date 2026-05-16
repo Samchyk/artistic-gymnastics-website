@@ -2,8 +2,8 @@
 
 import Link from 'next/link'
 
-const DOMAIN = 'magyargymnastics'
-const DOMAIN_EMAIL = 'contact@magyargymnastics.hu'
+const DOMAIN = 'hungaryrhythmicgymnastics'
+const DOMAIN_EMAIL = 'contact@hungaryrhythmicgymnastics.hu'
 
 export function Footer() {
   const currentYear = new Date().getFullYear()

@@ -3,8 +3,8 @@
 import Link from 'next/link'
 import { useState } from 'react'
 
-const DOMAIN = 'magyargymnastics'
-const DOMAIN_EMAIL = 'contact@magyargymnastics.hu'
+const DOMAIN = 'hungaryrhythmicgymnastics'
+const DOMAIN_EMAIL = 'contact@hungaryrhythmicgymnastics.hu'
 
 export function Header() {
   const [isOpen, setIsOpen] = useState(false)
