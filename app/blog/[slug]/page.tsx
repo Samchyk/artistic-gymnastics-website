@@ -33,15 +33,17 @@ export default async function ArticlePage({ params }: { params: Promise<Params> 
       
       <main className="flex-1">
         {/* Article Header */}
-        <article className="py-12 md:py-16 border-b border-border">
-          <div className="container px-6 max-w-2xl">
+        <article className="relative py-12 md:py-16 border-b border-border bg-gradient-to-b from-secondary/15 via-background to-background overflow-hidden">
+          <div className="pointer-events-none absolute -top-24 -right-24 w-96 h-96 rounded-full bg-accent/10 blur-3xl"></div>
+
+          <div className="container px-6 max-w-2xl relative">
             <Link href="/blog" className="inline-flex items-center text-primary hover:text-primary/80 transition-colors mb-6 text-sm font-medium">
               <svg className="w-4 h-4 mr-2 transition-transform hover:-translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
               </svg>
               Vissza a blogra
             </Link>
-            
+
             <div className="flex items-center gap-3 mb-6">
               <span className="inline-block px-3 py-1 text-xs font-medium rounded-full bg-primary/10 text-primary">
                 {article.category}
@@ -50,16 +52,16 @@ export default async function ArticlePage({ params }: { params: Promise<Params> 
                 {article.readTime} perc olvasás
               </span>
             </div>
-            
-            <h1 className="text-5xl md:text-6xl font-display font-bold tracking-tighter mb-6 text-foreground text-balance">
+
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold tracking-tighter mb-6 text-foreground text-balance">
               {article.title}
             </h1>
-            
-            <p className="text-xl text-muted-foreground leading-relaxed mb-8">
+
+            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-8">
               {article.excerpt}
             </p>
 
-            <div className="relative w-full h-96 md:h-[500px] rounded-lg overflow-hidden">
+            <div className="relative w-full h-72 md:h-[460px] rounded-xl overflow-hidden shadow-lg ring-1 ring-border">
               <Image
                 src={article.image}
                 alt={article.title}
@@ -72,21 +74,27 @@ export default async function ArticlePage({ params }: { params: Promise<Params> 
         </article>
 
         {/* Article Content */}
-        <section className="py-12 md:py-16">
-          <div className="container px-6 max-w-2xl">
-            <div className="prose prose-base max-w-none 
-              prose-headings:font-display prose-headings:font-bold prose-headings:tracking-tight
-              prose-h1:text-4xl prose-h2:text-3xl prose-h3:text-2xl
-              prose-p:text-foreground prose-p:leading-relaxed prose-p:text-base
-              prose-strong:text-foreground prose-strong:font-semibold
-              prose-a:text-primary prose-a:hover:text-primary/80
-              prose-ul:text-foreground prose-ol:text-foreground
-              prose-li:text-base prose-li:leading-relaxed
-              prose-code:text-primary prose-code:bg-secondary/10 prose-code:rounded
-              dark:prose-headings:text-foreground dark:prose-p:text-muted-foreground
-              dark:prose-strong:text-foreground dark:prose-a:text-primary"
-              dangerouslySetInnerHTML={{ __html: article.content.replace(/\n/g, '\n').trim() }}
-            />
+        <section className="py-12 md:py-20">
+          <div className="container px-6">
+            <div className="max-w-2xl mx-auto">
+              <div
+                className="article-prose"
+                dangerouslySetInnerHTML={{ __html: article.content.trim() }}
+              />
+
+              {/* Footer of article — share / back nav */}
+              <div className="mt-16 pt-8 border-t border-border flex flex-wrap items-center justify-between gap-4">
+                <Link href="/blog" className="inline-flex items-center text-primary hover:text-primary/80 transition-colors text-sm font-medium">
+                  <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                  </svg>
+                  Vissza a blogra
+                </Link>
+                <span className="text-xs text-muted-foreground">
+                  Kategória: <span className="text-foreground font-medium">{article.category}</span>
+                </span>
+              </div>
+            </div>
           </div>
         </section>
 

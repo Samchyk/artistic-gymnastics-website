@@ -11,11 +11,19 @@ export default function BlogPage() {
       
       <main className="flex-1">
         {/* Hero Section */}
-        <section className="py-16 md:py-24 border-b border-border">
-          <div className="container px-6">
+        <section className="relative py-16 md:py-24 border-b border-border bg-gradient-to-b from-secondary/20 via-background to-background overflow-hidden">
+          {/* decorative accent */}
+          <div className="pointer-events-none absolute -top-24 -right-24 w-96 h-96 rounded-full bg-accent/10 blur-3xl"></div>
+          <div className="pointer-events-none absolute -bottom-24 -left-24 w-96 h-96 rounded-full bg-primary/10 blur-3xl"></div>
+
+          <div className="container px-6 relative">
             <div className="max-w-2xl">
-              <h1 className="text-5xl md:text-6xl font-display font-bold tracking-tighter mb-6 text-foreground">
+              <div className="inline-flex items-center mb-6 text-accent text-sm font-medium">
+                <span className="h-px w-12 bg-gradient-to-r from-transparent to-accent mr-3"></span>
                 Müvelödési Blog
+              </div>
+              <h1 className="text-5xl md:text-6xl font-display font-bold tracking-tighter mb-6 text-foreground text-balance">
+                Tudás, technika és inspiráció
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
                 Ismerkedjen meg a műtornászat világával: tanulmányok, technikák, tudományos alapok és gyakorlati tanácsok a sportág minden szintjén.

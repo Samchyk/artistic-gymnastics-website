@@ -14,370 +14,425 @@ export const blogArticles: BlogArticle[] = [
   {
     id: '1',
     slug: 'foundations',
-    title: 'A Műtornászat Alapjai',
-    excerpt: 'Ismerje meg a műtornászat történetét, alapelveit és a legfontosabb sportági ismereteket.',
+    title: 'A műtornászat alapjai',
+    excerpt: 'Ismerje meg a műtornászat történetét, alapelveit és a sportág legfontosabb ismereteit.',
     category: 'Alapok',
     readTime: 8,
     published: true,
     image: '/fundamentals-cover.jpg',
     content: `
-# A Műtornászat Alapjai
+<p>A műtornászat lenyűgöző sportág, amely évszázados múltra tekint vissza. Szépsége az olyan fizikai képességek egyedülálló kombinációjában rejlik, mint az erő, a hajlékonyság, a koordináció és a művészi kifejezés.</p>
 
-A műtornászat egy lenyűgöző sportág, amely évszázadokra nyúlik vissza. Szépségét az olyan fizikai készségek kombinációjában rejlik, mint az erő, rugalmasság, koordináció és művészi kifejezés.
+<h2>A sportág története</h2>
+<p>A modern torna a 18. század végi és 19. század eleji német tornamozgalomból fejlődött ki. Johann Christoph Friedrich GutsMuths és Friedrich Ludwig Jahn úttörő munkája teremtette meg a mai értelemben vett torna alapjait. A nemzetközi versenyrendszer az 1881-ben alapított Nemzetközi Tornaszövetség (FIG) keretében szilárdult meg.</p>
 
-## A Történet
+<h2>Alapvető képességek</h2>
+<p>Egy sikeres műtornász fejlesztendő képességei a következők:</p>
+<ul>
+  <li><strong>Erő</strong> – elengedhetetlen az összetett elemek végrehajtásához.</li>
+  <li><strong>Hajlékonyság</strong> – lehetővé teszi a széles ívű, kifejező mozdulatokat.</li>
+  <li><strong>Egyensúly</strong> – kritikus jelentőségű a gerendán és a talajon.</li>
+  <li><strong>Koordináció</strong> – az összetett elemek pontos időzítéséhez szükséges.</li>
+  <li><strong>Művészi kifejezés</strong> – esztétikai értéket ad a gyakorlatnak.</li>
+</ul>
 
-A modern műtornászat a 18. századi német tornagyakorlatokból fejlődött ki. Johann Friedrich GutsMuths és Friedrich Ludwig Jahn voltak az úttörők, akik megteremtették az alapokat.
+<h2>A női verseny felépítése</h2>
+<p>A női tornászok négy szeren versenyeznek:</p>
+<ol>
+  <li>Ugrás</li>
+  <li>Felemás korlát</li>
+  <li>Gerenda</li>
+  <li>Talaj</li>
+</ol>
 
-## Alapvetõ Készségek
+<h2>A férfi verseny felépítése</h2>
+<p>A férfi tornászok hat szeren mérik össze tudásukat:</p>
+<ol>
+  <li>Talaj</li>
+  <li>Lólengés</li>
+  <li>Gyűrű</li>
+  <li>Ugrás</li>
+  <li>Korlát</li>
+  <li>Nyújtó</li>
+</ol>
 
-A sikeres műtornász fejlesztendő képességei:
-
-- **Erő**: Szükséges az összetett elemek végrehajtásához
-- **Rugalmasság**: Lehetővé teszi a széles és expresszív mozgásokat
-- **Egyensúly**: Kritikus fontosságú a gerenda és padló gyakorlataiban
-- **Koordináció**: Az összetett elemek szinkronizálásához szükséges
-- **Artisztikum**: Az esztétikai értékek hozzáadása a műtornához
-
-## A Műtornász Nő Verseny Felépítése
-
-A női műtornázók négy eszközön versenyeznek:
-1. Fejtámasz
-2. Gerendázás
-3. Lólódás
-4. Padló
-
-## Pontozási Rendszer
-
-A modern pontozás két részre oszlik:
-- **D-pont**: Az elemek technikai értéke
-- **E-pont**: Az elemek végrehajtásának minősége
-
-Ez az egyensúly biztosítja, hogy a technikai készség és az artisztikum egyaránt értékelődik.
+<h2>A pontozási rendszer</h2>
+<p>A modern pontozás két fő részből tevődik össze:</p>
+<ul>
+  <li><strong>D-pont (Difficulty)</strong> – a gyakorlatba épített elemek technikai értékét és nehézségét tükrözi.</li>
+  <li><strong>E-pont (Execution)</strong> – a végrehajtás minőségét értékeli, 10,0 pontról indulva, ahonnan a hibákért levonások történnek.</li>
+</ul>
+<p>Ez az egyensúly biztosítja, hogy mind a technikai tudás, mind a kivitelezés művészi színvonala értékelődjön.</p>
     `
   },
   {
     id: '2',
     slug: 'technique',
-    title: 'Technikai Fejlesztés',
-    excerpt: 'Részletes útmutató a technikai elemek elsajátításához és a sérülésmentesség biztosításához.',
+    title: 'Technikai fejlesztés',
+    excerpt: 'Részletes útmutató a technikai elemek elsajátításához és a sérülésmentes felkészüléshez.',
     category: 'Technika',
     readTime: 10,
     published: true,
     image: '/technique-cover.jpg',
     content: `
-# Technikai Fejlesztés
+<p>A műtornászati technika fejlesztése fokozatos, módszeres megközelítést igényel. A helyes forma és a sérülésmentesség biztosítása minden szinten kiemelt fontosságú.</p>
 
-A műtornászati technika fejlesztése fokozatos, módszeres megközelítést igényel. A sérülésmentesség és a helyes forma biztosítása kiemelkedően fontos.
+<h2>Progresszív fejlesztés</h2>
+<p>Minden új elemnek megvannak az előfeltételei. A felkészülés általában a következő szakaszokra bontható:</p>
+<ol>
+  <li><strong>Mozgékonysági gyakorlatok</strong> – a hajlékonyság és a mozgástartomány kialakítása.</li>
+  <li><strong>Erőfejlesztés</strong> – a törzs, valamint a felső- és alsótest erősítése.</li>
+  <li><strong>Technikai alapok</strong> – az alapelemek precíz elsajátítása.</li>
+  <li><strong>Fokozatos nehezítés</strong> – az elemek bonyolítása lépésről lépésre.</li>
+</ol>
 
-## Progresszív Fejlesztés
+<h2>Biztonsági protokollok</h2>
+<ul>
+  <li>Megfelelő felszerelés és szabványos szerek használata.</li>
+  <li>Edzői felügyelet minden új elem gyakorlása során.</li>
+  <li>A terhelés fokozatos és tervezett növelése.</li>
+  <li>Rendszeres pihenés és tudatos regeneráció.</li>
+  <li>Segédeszközök (szivacsgödör, hevederrendszer) alkalmazása a tanulási szakaszban.</li>
+</ul>
 
-Minden új elemnek vannak előfeltételei:
+<h2>Gyakori technikai hibák</h2>
+<ul>
+  <li>Az ízületi szögek helytelen pozíciója a leérkezésnél.</li>
+  <li>Túl gyors progresszió, a köztes lépések kihagyása.</li>
+  <li>Fáradt állapotban végzett bonyolult elemek.</li>
+  <li>Nem megfelelő bemelegítés vagy levezetés.</li>
+</ul>
 
-1. **Mozgékonyság gyakorlatok**: Rugalmasság és mozgástartomány fejlesztése
-2. **Erő alapok**: Mag-, felső és alsó test erősítése
-3. **Technikai alapok**: Az alapelemek precíz megtanulása
-4. **Progresszió**: Fokozatos nehézítés
-
-## Biztonsági Protokollok
-
-- Megfelelő felszerelés és pálya használata
-- Edzővel történő felügyelet minden munka során
-- Fokozatos terhelés növelése
-- Rendszeres pihenés és regeneráció
-
-## Közös Technikai Hibák
-
-- Az ízületi szögek helytelen pozíciója
-- Gyors progresszió sérülések nélkül
-- Anyag előtti fáradtság
-
-A technikai tökéletesség hosszú út, de az alapok szilárd megépítése létfontosságú.
+<h2>A tökéletesítés folyamata</h2>
+<p>A technikai tökéletesség hosszú folyamat, de az alapok szilárd lerakása létfontosságú. Egy-egy elem automatizálása több ezer ismétlést igényel, ezért a türelem és a következetesség éppolyan fontos, mint maga a tehetség.</p>
     `
   },
   {
     id: '3',
     slug: 'competition',
-    title: 'Versenyzés és Versenyek',
-    excerpt: 'A versenyrendszer, pontozás és a legfontosabb nemzetközi és hazai versenyek ismertetője.',
+    title: 'Versenyzés és versenyek',
+    excerpt: 'A versenyrendszer, a pontozás és a legfontosabb nemzetközi és hazai versenyek bemutatása.',
     category: 'Versenyzés',
     readTime: 9,
     published: true,
     image: '/competition-cover.jpg',
     content: `
-# Versenyzés és Versenyek
+<p>A nemzetközi műtornászati versenyek világszerte szigorú szabályok és protokollok szerint zajlanak, amelyeket a Nemzetközi Tornaszövetség (FIG) Pontozási Kódexe (Code of Points) rögzít.</p>
 
-A műtornászati verseny világszerte szigorú szabályok és protokollok szerint működik.
+<h2>A versenyrendszer</h2>
 
-## Versenyrendszer
+<h3>Csapatverseny</h3>
+<ul>
+  <li>Egy csapat legfeljebb öt tornászt nevezhet (a jelenlegi olimpiai formátumban).</li>
+  <li>Szerenként három tornász versenyez, és mindhárom pontja számít.</li>
+  <li>A csapatpontszám a szerenkénti eredmények összege.</li>
+</ul>
 
-### Csapatverseny
-- Minden csapat maximum 6 tornászt nevezhet
-- A legjobb 4 pontja számít az eszközkönként
-- A 2 szabad gyakorlat közül az egyik nem számít
+<h3>Egyéni összetett</h3>
+<ul>
+  <li>A tornászok mind a négy (női) vagy hat (férfi) szeren gyakorlatot mutatnak be.</li>
+  <li>A végeredmény az egyes szereken elért pontszámok összege.</li>
+</ul>
 
-### Egyéni Verseny
-- Minden tornász egyéni pontokért versenyez
-- Az egyéni készségek felmérésének legfontosabb formája
+<h3>Szerenkénti döntő</h3>
+<ul>
+  <li>Szerenként a selejtező nyolc legjobbja jut a döntőbe.</li>
+  <li>Országonként legfeljebb két tornász szerepelhet egy szer döntőjében.</li>
+</ul>
 
-### Készületi Finálé
-- Az öt legjobb tornász versenyez szétválasztott gyakorlatokkal
+<h2>A pontozás részletei</h2>
 
-## Pontozási Részletek
+<p><strong>Nehézségi érték (D-pont)</strong></p>
+<ul>
+  <li>A gyakorlatba beszámított elemek értékének összege.</li>
+  <li>Tartalmazza az összekötési bónuszokat és a kompozíciós követelmények teljesítését.</li>
+</ul>
 
-A pontozás a következő elemekből áll:
+<p><strong>Kivitelezési érték (E-pont)</strong></p>
+<ul>
+  <li>10,0 pontról indul.</li>
+  <li>A technikai, művészi és kivitelezési hibákért levonások történnek (0,1; 0,3; 0,5 vagy 1,0 pont).</li>
+</ul>
 
-**Kiindulási érték (D-pont)**
-- Az összes előírt és szabad elem összeszorzódott értéke
+<h2>A legfontosabb versenyek</h2>
+<ul>
+  <li><strong>Olimpiai játékok</strong> – négyévente, a sportág csúcsrendezvénye.</li>
+  <li><strong>Világbajnokság</strong> – általában évente (olimpiai évek kivételével lehet eltérés).</li>
+  <li><strong>Európa-bajnokság</strong> – évente, kontinentális szinten.</li>
+  <li><strong>Világkupa-sorozat</strong> – egész éven át tartó versenysorozat.</li>
+  <li><strong>Nemzeti bajnokságok</strong> – a hazai versenyrendszer alapja.</li>
+</ul>
 
-**Végrehajtási érték (E-pont)**
-- 10.0-ás skálából indul az edzők
-- Levonások a technikai hibákért
-
-## Fő Versenyek
-
-- **Olimpiai Játékok**: Négyévente
-- **Világbajnokság**: Évenként
-- **Kontinentális Bajnokságok**: Évente
-- **Nemzeti Bajnokságok**: A versenyképzés alapja
-
-## A Verseny Ettikája
-
-A műtornászat továbbra is a tisztesség, a kölcsönös támogatás és a sportos magatartás értékeit helyezi elõtérbe.
+<h2>A verseny etikája</h2>
+<p>A műtornászat továbbra is a tisztesség, a kölcsönös tisztelet és a sportszerűség értékeit helyezi előtérbe. A bírók függetlensége és az átlátható pontozás a sportág hitelességének alapja.</p>
     `
   },
   {
     id: '4',
     slug: 'training',
-    title: 'Edzésmódszertani Trendek',
-    excerpt: 'Modern edzésmódszerek, tudományos alapok és az innovatív tréningtechnikák alkalmazása.',
+    title: 'Edzésmódszertani trendek',
+    excerpt: 'Modern edzésmódszerek, tudományos alapok és innovatív tréningtechnikák alkalmazása.',
     category: 'Edzés',
     readTime: 11,
     published: true,
     image: '/training-cover.jpg',
     content: `
-# Edzésmódszertani Trendek
+<p>A modern műtornászat edzésmódszertana egyre inkább tudományos alapokra támaszkodik. A tervezés, a terhelésszabályozás és a regeneráció ma már önálló szakterületnek számít.</p>
 
-A modern műtornászat edzésmódszertana tudomány-alapú megközelítésre támaszkodik.
+<h2>Tudományos alapú edzés</h2>
 
-## Tudományos Alapú Edzés
+<h3>Periodizáció</h3>
+<ul>
+  <li><strong>Makrociklus</strong> – a teljes szezon (általában egy év).</li>
+  <li><strong>Mezociklus</strong> – 4–8 hetes szakaszok, egy-egy célt szolgálva.</li>
+  <li><strong>Mikrociklus</strong> – heti bontású tervezés.</li>
+</ul>
 
-### Periodizáció
-- **Makrociklus**: Teljes szezon (általában 1 év)
-- **Mezociklus**: 4-8 hét szakaszok
-- **Mikrociklus**: Heti szintek
+<h3>Terhelésmenedzsment</h3>
+<p>A terhelés tudatos szabályozása kritikus fontosságú:</p>
+<ul>
+  <li>Megfelelően adagolt edzésintenzitás.</li>
+  <li>Tervezett pihenés és regeneráció.</li>
+  <li>Felépítő és levezető szakaszok váltakozása.</li>
+  <li>A szubjektív fáradtság és az objektív mutatók (pulzus, alvás) követése.</li>
+</ul>
 
-### Terhelés Menedzselés
+<h2>Innovatív tréningtechnikák</h2>
 
-A terhelés menedzselés kritikus:
-- Megfelelő edzésintenzitás
-- Pihenés és helyreállítás
-- Felépítés és leépítés szakaszok
+<h3>Virtuális valóság az edzésben</h3>
+<ul>
+  <li>Mentális képzés és versenyszimuláció.</li>
+  <li>Mozgáselemzés és azonnali visszajelzés.</li>
+</ul>
 
-## Innovatív Tréningtechnikák
+<h3>Biomechanikai elemzés</h3>
+<ul>
+  <li>Nagy sebességű videóelemzés.</li>
+  <li>3D mozgásrögzítés (motion capture).</li>
+  <li>Szögek, sebességek és erők mérése a technika finomításához.</li>
+</ul>
 
-### Virtuális Valóság Edzés
-- Mentális képzéshez és szimuláció
-- Mozgáselemzéshez és visszajelzéshez
+<h3>Erősítési protokollok</h3>
+<ul>
+  <li>Komplex, többízületi gyakorlatok.</li>
+  <li>Funkcionális edzés a sportspecifikus mozgásokra építve.</li>
+  <li>Prevenciós célú kiegészítő munka (törzs, vállöv, csípő).</li>
+</ul>
 
-### Biomechanikai Elemzés
-- Videó elemzés
-- 3D mozgásfigyelemmel kísérés
-- Mozgásmódosítások optimalizálása
-
-### Erősítés Protokollok
-
-- Komplex gyakorlatok
-- Funkcióélis edzés
-- Prevenció-orientált edzés
-
-## Csapatmunka
-
-A sikeres program magában foglal:
-- Edzőket
-- Sportorvosat
-- Fiziológust
-- Pszichológust
-- Fizioterapeutát
-
-Az összes szakember az atlétáért dolgozik.
+<h2>Csapatmunka az élsportban</h2>
+<p>Egy sikeres program ma már egy szakembercsapatra épül:</p>
+<ul>
+  <li>Vezető- és szakedzők</li>
+  <li>Sportorvos</li>
+  <li>Fiziológus és teljesítménydiagnoszta</li>
+  <li>Sportpszichológus</li>
+  <li>Gyúró és gyógytornász</li>
+  <li>Táplálkozási tanácsadó</li>
+</ul>
+<p>Minden szakember egyetlen célért dolgozik: a sportoló hosszú távú, egészséges fejlődéséért.</p>
     `
   },
   {
     id: '5',
     slug: 'science',
-    title: 'Sporttudományi Háttér',
-    excerpt: 'Az élsport tudományi alapjai, fiziológia és biomechanika a gyakorlatban.',
+    title: 'Sporttudományi háttér',
+    excerpt: 'Az élsport tudományos alapjai, a fiziológia és a biomechanika a gyakorlatban.',
     category: 'Tudomány',
     readTime: 12,
     published: true,
     image: '/mental-cover.jpg',
     content: `
-# Sporttudományi Háttér
+<p>A modern műtornászat a tudomány és a gyakorlat szoros együttműködésére épül. A teljesítmény optimalizálása ma már csak interdiszciplináris megközelítéssel képzelhető el.</p>
 
-A műtornászat a tudományi kutatások és gyakorlat közötti szintézise.
+<h2>Fiziológia és adaptáció</h2>
 
-## Fiziológia és Adaptáció
+<h3>Kardiovaszkuláris adaptáció</h3>
+<ul>
+  <li>Az edzett tornászok nyugalmi pulzusa jellemzően alacsonyabb.</li>
+  <li>Hatékonyabb oxigénfelvétel és -hasznosítás (VO₂max).</li>
+  <li>Gyorsabb regenerálódás az intenzív erőkifejtések között.</li>
+</ul>
 
-### Kardiovaszkuláris Adaptáció
-- Edzett tornászok alacsonyabb nyugalmi pulzusa
-- Megnövekedett oxigénfelhasználás
+<h3>Izomadaptáció</h3>
+<ul>
+  <li>Fokozott fehérjeszintézis és izomhipertrófia a célzott területeken.</li>
+  <li>A mitokondriumok számának és működésének javulása.</li>
+  <li>Az izomrostok szerkezeti és funkcionális átalakulása az edzésingerre.</li>
+</ul>
 
-### Izomadaptáció
-- Fehérjelánc szintézisnövekedés
-- Mitokondriális entwickelés
-- Izomrost típusváltozás
+<h2>Biomechanika</h2>
 
-## Biomechanika
+<h3>Erőelemzés</h3>
+<ul>
+  <li>Laboratóriumi erőplatformok használata.</li>
+  <li>A lendület és az impulzus megmaradásának alkalmazása az elemek tervezésében.</li>
+  <li>A leérkezések terhelésének objektív mérése.</li>
+</ul>
 
-### Erőelemzés
-- Laboratóriumi erőplatformok
-- Lendületmegmaradás elve
-- Teljesítményelemzés
+<h3>Mozgáselemzés</h3>
+<ul>
+  <li>Ízületi szögek és szögsebesség nyomon követése.</li>
+  <li>Az ízületeket érő terhelés becslése.</li>
+  <li>Az optimális technika egyénre szabott meghatározása.</li>
+</ul>
 
-### Mozgáselemzés
-- Szögek és szögsebesség
-- Ízületi terhelések
-- Optimális technika meghatározása
+<h2>Sérülésmegelőzés</h2>
 
-## Sérülésmegelőzés
+<h3>Kockázati tényezők</h3>
+<ul>
+  <li>Krónikus túlterhelés.</li>
+  <li>Hiányos alapképességek (erő, mobilitás, stabilitás).</li>
+  <li>Aszimmetriák és biomechanikai eltérések.</li>
+</ul>
 
-### Kockázati Tényezők
-- Túlterhelés
-- Készséghiányok
-- Biomechanikai eltérések
+<h3>Prevenciós stratégiák</h3>
+<ul>
+  <li>Célzott erősítő és stabilizáló program.</li>
+  <li>Rendszeres hajlékonysági és mobilizációs munka.</li>
+  <li>Aktív regenerációs módszerek (mobilitás, alvás, táplálkozás).</li>
+</ul>
 
-### Prevenció Stratégiák
-- Erősítési program
-- Rugalmassági edzés
-- Helyreállítási módszerek
-
-## Kognitív Fejlődés
-
-A műtornászat fejleszti a kognitív funkciókat:
-- Térbeli tudatosság
-- Memória
-- Döntéshozatal
-- Stresszkezelés
-
-Az élsport tudománya folyamatosan fejlődik és bővül.
+<h2>Kognitív fejlődés</h2>
+<p>A műtornászat a fizikai képességek mellett számos kognitív funkciót is fejleszt:</p>
+<ul>
+  <li>Téri tájékozódás és testtudat.</li>
+  <li>Motoros memória.</li>
+  <li>Gyors döntéshozatal nyomás alatt.</li>
+  <li>Stresszkezelés és érzelmi szabályozás.</li>
+</ul>
+<p>A sporttudomány folyamatosan fejlődik, és új ismeretekkel gazdagítja a felkészítés gyakorlatát.</p>
     `
   },
   {
     id: '6',
     slug: 'coaching',
-    title: 'Edzők Fejlesztése',
-    excerpt: 'Professzionális fejlődési útvonal, képzés és a modern edző szerepe.',
+    title: 'Edzők fejlesztése',
+    excerpt: 'A szakmai fejlődés útja, a képzés szintjei és a modern edző szerepe a sportágban.',
     category: 'Edzés',
     readTime: 10,
     published: true,
     image: '/nutrition-cover.jpg',
     content: `
-# Edzők Fejlesztése
+<p>A minőségi edzők jelentik a műtornászat fejlődésének alapját. A tehetség önmagában nem elég – kiváló szakmai vezetés nélkül a legígéretesebb sportoló sem juthat el a legmagasabb szintre.</p>
 
-A minőségi edzők a műtornászat fejlesztésének alapja.
+<h2>Edzői képzési szintek</h2>
 
-## Edzői Képzési Szintek
+<h3>Alapszint</h3>
+<ul>
+  <li>Alapvető biztonsági és technikai ismeretek.</li>
+  <li>Gyermekekkel és kezdőkkel végzett munka.</li>
+</ul>
 
-### Amatőr Szint
-- Alapvető biztonság és technika
-- Alapszintű ismeretek
+<h3>Regionális szint</h3>
+<ul>
+  <li>Mélyebb technikai és módszertani tudás.</li>
+  <li>Versenyzők felkészítése regionális és országos szintre.</li>
+</ul>
 
-### Regionális Szint
-- Mélyebb technikai tudás
-- Versenyzésre való felkészítés
+<h3>Nemzetközi szint</h3>
+<ul>
+  <li>Élvonalbeli szaktudás és tapasztalat.</li>
+  <li>Felkészítés világversenyekre, olimpiára.</li>
+</ul>
 
-### Nemzetközi Szint
-- Élitszintű tudás
-- Világversenyekre való felkészítés
+<h2>Alapvető kompetenciák</h2>
+<p>Egy modern edzőnek több területen kell otthonosan mozognia:</p>
+<ul>
+  <li><strong>Biomechanika</strong> – az erő és a mozgás törvényei.</li>
+  <li><strong>Fiziológia</strong> – az emberi szervezet alkalmazkodása az edzésingerre.</li>
+  <li><strong>Sportpszichológia</strong> – mentális felkészítés, motiváció.</li>
+  <li><strong>Pedagógia</strong> – hatékony oktatás és visszajelzés.</li>
+  <li><strong>Biztonságtechnika</strong> – sérülésmegelőzés, segítségadás.</li>
+</ul>
 
-## Alapvető Kompetenciák
+<h2>Folyamatos szakmai fejlődés</h2>
+<ul>
+  <li>Szemináriumok és műhelymunkák.</li>
+  <li>Tudományos konferenciák.</li>
+  <li>Nemzetközi módszertani tapasztalatcsere.</li>
+  <li>Kollégák közötti tudásmegosztás.</li>
+</ul>
 
-Egy modern edzőnek ismernie kell:
-- **Biomechanika**: Az erő és mozgás törvényei
-- **Fiziológia**: Az emberi test adaptációja
-- **Pszichológia**: Mentális felkészítés
-- **Pedagógia**: Effektív oktatás
-- **Biztonság**: Sérülésmegelőzés
-
-## Folyamatos Képzés
-
-- Szemináriumok és műhelyek
-- Tudományos konferenciák
-- Nemzetközi Best Practices
-- Peer Learning
-
-## Etikai Felelősség
-
-Az edzők felelősek:
-- Az atlétáik biztonságáért
-- A fejlődésük mentorálásáért
-- Pozitív értékek modellezéséért
-- Hosszú távú egészségért
-
-A jó edző sokkal többet jelent, mint a technika tanítása.
+<h2>Etikai felelősség</h2>
+<p>Az edző felelőssége túlmutat a technikai oktatáson. Az edző felel:</p>
+<ul>
+  <li>a sportolók fizikai és lelki biztonságáért;</li>
+  <li>a fejlődésük tudatos mentorálásáért;</li>
+  <li>a pozitív értékek és viselkedésminták közvetítéséért;</li>
+  <li>a versenyzők hosszú távú egészségéért.</li>
+</ul>
+<p>A jó edző tehát sokkal többet ad, mint egy-egy elem megtanítása – emberi mintát is mutat tanítványainak.</p>
     `
   },
   {
     id: '7',
     slug: 'youth',
-    title: 'Ifjúsági Program',
-    excerpt: 'Tehetséggondozás, korai felismerés és a jövő bajnokok felkészítése.',
+    title: 'Ifjúsági program',
+    excerpt: 'Tehetséggondozás, korai kiválasztás és a jövő bajnokainak felkészítése.',
     category: 'Ifjúsági',
     readTime: 9,
     published: true,
     image: '/recovery-cover.jpg',
     content: `
-# Ifjúsági Program
+<p>A tehetséggondozás minden sikeres nemzeti műtornászati program alapja. A tartós nemzetközi versenyképesség nem véletlen műve, hanem évtizedek alatt felépített rendszeré.</p>
 
-A tehetséggondozás a nemzetközi versenyképesség alapja.
+<h2>A tehetség felismerése</h2>
 
-## Tehetség Felismerése
+<h3>Egyéni jellemzők</h3>
+<ul>
+  <li>Megfelelő fizikai adottságok (alkat, hajlékonyság).</li>
+  <li>Kiemelkedő koordinációs képesség.</li>
+  <li>Mentális rugalmasság és tanulékonyság.</li>
+  <li>Kitartás, szorgalom és belső motiváció.</li>
+</ul>
 
-### Egyéni Jellemzők
-- Fizikai adottságok
-- Koordinációs képesség
-- Mentális rugalmasság
-- Kitartás és szorgalom
+<h3>Szisztematikus szűrés</h3>
+<ul>
+  <li>Iskolai testnevelési programok.</li>
+  <li>Közösségi edzőpontok és tehetségkutató napok.</li>
+  <li>Nyílt próbák egyesületeknél.</li>
+</ul>
 
-### Szisztematikus Szűrés
-- Iskolai programok
-- Közösségi edzőpontok
-- Nyílt próbák
+<h2>Fejlesztési szintek</h2>
 
-## Fejlesztési Szintek
+<h3>Kezdő szint (6–8 év)</h3>
+<ul>
+  <li>Játékos ismerkedés a szerekkel.</li>
+  <li>Az általános mozgásműveltség kialakítása.</li>
+  <li>Biztonságos környezet és élményközpontú edzés.</li>
+</ul>
 
-### Kezdő Szint (6-8 évesek)
-- Játékos ismerkedés az eszközökkel
-- Alapvető mozgásalap fejlesztése
-- Biztonság és szórakozás
+<h3>Középső szint (9–12 év)</h3>
+<ul>
+  <li>Az alapelemek tudatos elsajátítása.</li>
+  <li>A versenyfelkészítés első lépései.</li>
+  <li>Specifikus erő- és technikai munka.</li>
+</ul>
 
-### Középsőszint (9-12 évesek)
-- Alapvető elemek megtanítása
-- Versenyfelkészítés kezdete
-- Speciális edzés
+<h3>Felső szint (13 év felett)</h3>
+<ul>
+  <li>Magas szintű technikai fejlesztés.</li>
+  <li>Részvétel az országos versenyrendszerben.</li>
+  <li>Felkészülés a nemzetközi szereplésekre.</li>
+</ul>
 
-### Felsőszint (13+ évesek)
-- Magas szintű technikai fejlesztés
-- Nemzeti versenyek
-- Nemzetközi felkészítés
+<h2>Holisztikus fejlődés</h2>
+<p>A fiatal sportoló nem szigetelhető el a sporton kívüli életétől. Fontos figyelembe venni:</p>
+<ul>
+  <li>a fizikai fejlődés ütemét és határait;</li>
+  <li>a mentális egészséget és önbecsülést;</li>
+  <li>a tanulmányi előmenetelt;</li>
+  <li>a társas kapcsolatok minőségét.</li>
+</ul>
 
-## Holisztikus Fejlődés
-
-Figyelembe kell venni:
-- Fizikai fejlődés
-- Mentális egészség
-- Iskolai tanulmányok
-- Társadalmi készségek
-
-## Hosszú Távú Perspektíva
-
-A tehetséggondozás nem az azonnali eredményekről szól, hanem:
-- Fenntartható fejlődésről
-- Egész életi karrier építésről
-- Felépített alapokról
-
-Az ifjúságban befektetett munka később meghozza az eredményeket.
+<h2>Hosszú távú szemlélet</h2>
+<p>A tehetséggondozás nem az azonnali eredményekről szól, hanem:</p>
+<ul>
+  <li>fenntartható, fokozatos fejlődésről;</li>
+  <li>egész életen át tartó sportkarrier megalapozásáról;</li>
+  <li>szilárd technikai és emberi alapok kiépítéséről.</li>
+</ul>
+<p>Az ifjúságba fektetett munka évek múlva, kiérlelt formában hozza meg a gyümölcsét.</p>
     `
   }
 ]

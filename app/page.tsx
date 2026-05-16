@@ -55,8 +55,8 @@ export default function Home() {
       
       <main className="flex-1">
         {/* Hero Section */}
-        <section className="relative overflow-hidden py-0">
-          <div className="relative h-96 md:h-[600px] w-full">
+        <section className="relative overflow-hidden">
+          <div className="relative h-[560px] md:h-[720px] w-full">
             <Image
               src="/hero-gymnastics.jpg"
               alt="Graceful artistic gymnast performing aerial movement"
@@ -64,34 +64,38 @@ export default function Home() {
               className="object-cover"
               priority
             />
-            <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-black/60"></div>
-          </div>
-          
-          <div className="container px-6 relative -mt-32 md:-mt-40 z-10 pb-12">
-            <div className="max-w-3xl mx-auto">
-              <div className="inline-flex items-center mb-6 text-accent text-sm font-medium">
-                <span className="h-px flex-1 bg-gradient-to-r from-transparent to-accent mr-2"></span>
-                A magyar műtornászat hivatalos portálja
-              </div>
-              
-              <h1 className="text-5xl md:text-7xl font-display font-bold tracking-tighter mb-6 text-white text-balance drop-shadow-lg">
-                Elegancia és precizitás
-              </h1>
-              
-              <p className="text-xl md:text-2xl text-white/90 mb-8 leading-relaxed text-balance drop-shadow-md">
-                Fedezze fel a műtornászat világát: történelem, technika, tudomány és inspiráció a legmagasabb szintű sporttevékenységről.
-              </p>
-              
-              <div className="flex flex-col sm:flex-row gap-4">
-                <a href="#sections" className="inline-flex items-center justify-center px-8 py-3 rounded-lg bg-accent text-accent-foreground font-medium hover:bg-accent/90 transition-colors hover-scale">
-                  Kezdj el
-                  <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
-                </a>
-                <a href="/about" className="inline-flex items-center justify-center px-8 py-3 rounded-lg border-2 border-white text-white font-medium hover:bg-white/10 transition-colors backdrop-blur-sm">
-                  Rólunk
-                </a>
+            {/* Dark overlay — guarantees readable text regardless of image brightness */}
+            <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/40 to-black/80"></div>
+
+            {/* Text content sits fully inside the image area */}
+            <div className="absolute inset-0 flex items-end">
+              <div className="container px-6 pb-12 md:pb-20 z-10">
+                <div className="max-w-3xl">
+                  <div className="inline-flex items-center mb-6 text-accent text-sm font-medium">
+                    <span className="h-px w-12 bg-gradient-to-r from-transparent to-accent mr-3"></span>
+                    A magyar műtornászat hivatalos portálja
+                  </div>
+
+                  <h1 className="text-5xl md:text-7xl font-display font-bold tracking-tighter mb-6 text-white text-balance drop-shadow-lg">
+                    Elegancia és precizitás
+                  </h1>
+
+                  <p className="text-lg md:text-2xl text-white/90 mb-8 leading-relaxed text-balance drop-shadow-md max-w-2xl">
+                    Fedezze fel a műtornászat világát: történelem, technika, tudomány és inspiráció a legmagasabb szintű sporttevékenységről.
+                  </p>
+
+                  <div className="flex flex-col sm:flex-row gap-4">
+                    <a href="#sections" className="inline-flex items-center justify-center px-8 py-3 rounded-lg bg-accent text-accent-foreground font-medium shadow-lg hover:bg-accent/90 transition-colors hover-scale">
+                      Kezdj el
+                      <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                      </svg>
+                    </a>
+                    <a href="/about" className="inline-flex items-center justify-center px-8 py-3 rounded-lg border-2 border-white/80 text-white font-medium hover:bg-white/15 transition-colors backdrop-blur-sm">
+                      Rólunk
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
