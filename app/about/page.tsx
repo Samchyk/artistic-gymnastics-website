@@ -29,7 +29,7 @@ export default function AboutPage() {
               Küldetésünk
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-              A Magyar Tornasport portál célja, hogy átfogó, magas minőségű információt nyújtson a műtornászat minden aspektusáról. Támogatjuk az atlétákat, edzőket és szurkolókat azzal, hogy elérhetővé tesszük a technikai tudást, a sporttudományi alapokat és az inspirációt.
+            Hungaryrhythmicgymnastics, hogy átfogó, magas minőségű információt nyújtson a műtornászat minden aspektusáról. Támogatjuk az atlétákat, edzőket és szurkolókat azzal, hogy elérhetővé tesszük a technikai tudást, a sporttudományi alapokat és az inspirációt.
             </p>
             <div className="space-y-4">
               <div>

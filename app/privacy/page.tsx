@@ -73,7 +73,7 @@ export default function PrivacyPage() {
                   <div className="article-prose">
                     <h2 id="bevezeto">1. Bevezető</h2>
                     <p>
-                      A Magyar Tornasport Portál (&bdquo;mi&rdquo;, &bdquo;minket&rdquo; vagy &bdquo;a Szolgáltató&rdquo;) elkötelezett az Ön személyes adatainak védelme mellett. Ez az Adatvédelmi Szabályzat elmagyarázza, hogyan gyűjtjük, használjuk fel, védjük és tesszük elérhetővé az Ön adatait.
+                     Hungaryrhythmicgymnastics (&bdquo;mi&rdquo;, &bdquo;minket&rdquo; vagy &bdquo;a Szolgáltató&rdquo;) elkötelezett az Ön személyes adatainak védelme mellett. Ez az Adatvédelmi Szabályzat elmagyarázza, hogyan gyűjtjük, használjuk fel, védjük és tesszük elérhetővé az Ön adatait.
                     </p>
 
                     <h2 id="gyujtes">2. Az adatok gyűjtése</h2>
